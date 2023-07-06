@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik+Puddles&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><img id="logo" src="https://images01.nicepage.com/f4/d4/f4d4da86ac71e8f618a6a46621ce6d05.png"></li>
+      <li><div id="menu">
+        <img src="data:image/png;base64,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" id="menu2">
+    </div></li>
+    </ul>
+    
+  </nav>
+  <div class="main1">
+    <div class="main2">
+      <div class="freshfood">FRESH FOOD</div>
+      <div class="organic">Organic</div>
+      <div class="text1">How your food is grown or raised can have a major impact on your mental and emotional health as well as the environment.</div>
+      <button class="learn">LEARN MORE</button>
+    </div>
+    <div class="main3"></div>
+  </div>
+   <!-- firts grid -->
+  <div class="secondmain1">
+    <div class="one">
+      <p class="how">How It Works?</p>
+      <p class="Organic">Organic agriculture, which is governed by strict government standards, requires that products bearing the organic label are produced without the use of toxic and persistent pesticides and synthetic nitrogen fertilizers, antibiotics, synthetic hormones, genetic engineering or other excluded practices, sewage sludge, or irradiation.</p>
+    </div>
+    <div class="two">
+      <img class="img1" src="images/sheep.png" height="300px" width="350px
+      ">
+    </div>
+    <div class="three">
+      <img class="img1"  src="images/organic.png" height="300px" width="350px">
+    </div>
+    <div class="four">
+      <img class="img1"  src="images/str.png" height="300px" width="350px">
+    </div>
+    <div class="five">
+      <img class="img1" src="images/animal.png" height="250px" width="350px">
+    </div>
+    <div class="six">
+      <img src="images/vegetables.png"  height="250px" width="350px" class="img1">
+    </div>
+    <div class="seven">
+      <img src="images/farming.png" height="250px" width="350px" class="img1">
+    </div>
+  </div>
+
+  <!-- SECOND grid -->
+
+  <div class="thirdgrid">
+    <div class="one1">
+      <img src="images/vege22.png" >
+    </div>
+    
+    <div class="one2">
+      <h1 class="farm">ORGANIC FARM</h1>
+      <h2 class="farm1">Our Promise</h2>
+      <p class="desc1">We bring the season’s best mix of organic produce and hand-crafted farm products conveniently to your door by growing and partnering with local farms and artisans in your area.</p>
+      <button class="learn">LEARN MORE</button>
+    </div>
+  </div>
+
+  <!-- THIRD GRID -->
+  <div class="fourthgrid">
+    <div class="one11">
+      <h1 class="our">About Our Farm</h1>
+      <p class="t1">Today, at our second-generation family farm, we keep with our parents vision by practicing healthy crop rotation, encouraging a diverse ecosystem around the fields, efficiently using local water sources and carefully selecting produce varieties that grow well and taste great.</p>
+    </div>
+
+    <div class="two22">
+      <h1 class="veg">VEGETABLES</h1>
+      <p class="loo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+
+    <div class="three33">
+      <h1 class="veg">HOW IT WORKS</h1>
+      <p class="loo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+
+    <div class="four44">
+      <h1 class="veg">FLEXIBILITY</h1>
+      <p class="loo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="five55">
+      <h1 class="veg">FARM PRODUCTS</h1>
+      <p class="loo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+  </div>
+
+  <!-- FOUTH GRID -->
+
+  <div class="fivithgrid">
+    <div class="one111">
+      <img src="images/vv1.png" height="200px" width="280px
+      " class="img111">
+    </div>
+    <div class="two222">
+      <img src="images/veg334.png" height="200px" width="280px
+      " class="img111">
+    </div>
+    <div class="three333">
+      <img src="images/veg335.png" height="200px" width="280px
+      " class="img111">
+    </div>
+    <div class="four444">
+      <img src="images/veg336.png" height="200px" width="280px
+      " class="img111">
+    </div>
+  </div>
+
+
+  <!-- FIFITH GRID -->
+  <div class="sixthgrid">
+    <div class="one1111">
+      <img class="img1111" src="images/cow.png" height="600px" width="700px">
+    </div>
+    <div class="two2222">
+      <p class="happy1">HAPPY FARMING</p>
+      <p class="happy2">Happy Animals</p>
+      <p class="desc3333">The idea that happier farm animals produce higher quality food is not new, and it seems to be catching on. Several small scale egg farmers have transitioned to a “pastured” system, allowing their chickens to roam freely to eat grass and bugs the way nature intended. These chickens are not simply “free range” or “cage free,” which are terms that unfortunately dont have much meaning in todays food market</p>
+      <button class="learn1">LEARN MORE</button>
+    </div>
+  </div>
+
+
+  <!-- SIXITH GRID -->
+
+  <div class="seventhgrid">
+    <div class="oone1">
+      <p class="imgebg"></p>
+      <p class="heading1">Fresh Fruits</p>
+      <p class="proddes">The secret is using fresh, seasonal produce in combination with good quality oils, vinegars or dairy. We choose the organic lifestyle because</p>
+      <p class="linee">LEARN MORE <hr class="hr1"></p>
+    </div>
+    <div class="ttwo1">
+      <p class="imgebg1"></p>
+      <p class="heading1">Vegetables</p>
+      <p class="proddes">We have all been listening to our mothers saying: eat your vegetables. Scientists also agree: we need to eat 5 portions of vegetables to stay healthy</p>
+      <p class="linee">LEARN MORE <hr class="hr1"></p>
+    </div>
+    <div class="tthree3">
+      <p class="imgebg2"></p>
+      <p class="heading1">Salad Leaves</p>
+      <p class="proddes">One way to motivate yourself to eat more salad this summer is to have a tasty, homemade dressing drizzled on top. Organic food popularity</p>
+      <p class="linee">LEARN MORE <hr class="hr1"></p>
+    </div>
+    <div class="doneby">
+      <h3 class="name2">Image by NAVEEN KUMAR A<hr class="hrr5"></h3>
+    </div>
+  </div>
+
+
+  <!-- SEVENTH GRID -->
+  <div class="ninthgrid">
+    <div>
+      <p class="heading9">ORGANIC FARM</p>
+      <p class="sub9">Of Organic Food</p>
+      <p class="ssub9">Organic principles and regulations are also designed to ensure that animals are treated humanely, or, to be brutally honest, as humanely as possible.
+        There are strict rules on the way in which animals are housed, guaranteeing a degree of comfort for the animals. But when it comes to vegetables, the situation is quite different.</p>
+        <button class="learn9">LEARN MORE</button>
+    </div>
+    <div class="nine2">
+      <img src="images/lastveg.png" height="100%" width="100%">
+    </div>
+  </div>
+
+  <!-- EIGHTH GRID -->
+  <div class="tenthgrid">
+    <div class="tenth1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <div class="tenth2">
+      <img src="images/grass2.png" height="95%" width="180%" style="border-radius: 5px;">
+    </div>
+  </div>
+
+  <!-- last div -->
+
+  <div class="lastone">
+    <span>Website templates created by Naveen</span> &copy copywrite 2023
+  </div>
+</body>
+</html>
